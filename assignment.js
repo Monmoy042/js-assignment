@@ -18,10 +18,10 @@ console.log(result);
 
 // Electronic Budget Calculator
 function budgetCalculator(watch, phone, laptop) {
-		var watchPrice = watch * 50;
-		var phonePrice = phone * 100;
-		var laptopPrice = laptop * 500;
-		var result = watchPrice + phonePrice + laptopPrice;
+	var watchPrice = watch * 50;
+	var phonePrice = phone * 100;
+	var laptopPrice = laptop * 500;
+	var result = watchPrice + phonePrice + laptopPrice;
 	return result;
 }
 var total = budgetCalculator(2, 2, 1);
